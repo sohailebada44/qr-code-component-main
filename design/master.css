@@ -12,7 +12,7 @@
 body {
     background-color: var(--Light-gray);
 }
-.container {
+main {
     background-color: var(--White);
     width: 375px;
     display: flex;
@@ -20,20 +20,20 @@ body {
     margin: 20px auto;
     border-radius: 15px;
 }
-.container .text {
+article {
     font-family: 'Outfit', sans-serif;
 }
-.container img {
+img {
     border-radius: 10px;
     width: 336px;
     margin: 20px;
 }
-.container .text h1 {
+article h1 {
     font-size: 23px;
     width: 267px;
     margin: 10px 60px;
 }
-.container .text p {
+article p {
     font-size: 15px;
     line-height: 1.5;
     margin: 25px 40px;
@@ -42,11 +42,17 @@ body {
     margin-left: 55px;
     color: var(--Grayish-blue);
 }
+footer {
+    position: relative;
+    left: 20px;
+    top: 25px;
+}
 @media (max-width: 767px) {
-    .container {
-        margin: 68px 16px;
+    main {
+        margin: 35% 20px;
     }
-    .attribution {
-        margin: -10%;
+    footer {
+        position: relative;
+        top: 30px;
     }
 }
