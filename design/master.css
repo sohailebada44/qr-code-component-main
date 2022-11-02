@@ -1,58 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Outfit:wght@700&display=swap');
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 :root {
     --White: hsl(0, 0%, 100%);
     --Light-gray: hsl(212, 45%, 89%);
-    --Grayish-blue: hsl(220, 15%, 55%);
+    --Grayish-blue: hsl(220, 15%, 55%);  
     --Dark-blue: hsl(218, 44%, 22%);
 }
 body {
     background-color: var(--Light-gray);
-    font-family: 'Outfit', sans-serif;
 }
 .container {
     background-color: var(--White);
+    width: 375px;
     display: flex;
     flex-direction: column;
-    width: 330px;
-    justify-content: space-between;
-    border-radius: 20px;
-    margin: 40px auto;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    box-shadow: 2px 2px 12px var(--Grayish-blue);
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.container .text {
+    font-family: 'Outfit', sans-serif;
 }
 .container img {
     border-radius: 10px;
-    width: 300px;
-    margin: 17px auto;
-}
-.container .text {
-    text-align: center;
-    font-size: 13px;
-    line-height: 1.5;
+    width: 336px;
+    margin: 20px;
 }
 .container .text h1 {
-    margin-bottom: 15px;
-    width: 273px;
-    font-size: 20px;
-    text-align: center;
-    margin-left: 30px;
+    font-size: 23px;
+    width: 267px;
+    margin: 10px 60px;
 }
 .container .text p {
-    margin-bottom: 25px;
-    width: 250px;
-    width: 221px;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 25px 40px;
+    width: 262px;
+    text-align: center;
     margin-left: 55px;
-    color: var(--Grayish-blue); 
+    color: var(--Grayish-blue);
 }
 @media (max-width: 767px) {
     .container {
-        margin-top: 36%;
+        margin: 68px 16px;
+    }
+    .attribution {
+        margin: -10%;
     }
 }
