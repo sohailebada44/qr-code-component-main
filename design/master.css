@@ -17,7 +17,7 @@ body {
     background-color: var(--White);
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 330px;
     justify-content: space-between;
     border-radius: 20px;
     margin: 40px auto;
@@ -29,7 +29,7 @@ body {
 }
 .container img {
     border-radius: 10px;
-    width: 270px;
+    width: 300px;
     margin: 17px auto;
 }
 .container .text {
@@ -42,13 +42,13 @@ body {
     width: 273px;
     font-size: 20px;
     text-align: center;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 .container .text p {
     margin-bottom: 25px;
     width: 250px;
     width: 221px;
-    margin-left: 40px;
+    margin-left: 55px;
     color: var(--Grayish-blue); 
 }
 @media (max-width: 767px) {
